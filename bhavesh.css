@@ -1,0 +1,187 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+}
+   /* Base styles for the carousel */
+   .carousel-item img {
+    height: 300px; /* Set your desired height */
+    object-fit: cover;/* Slightly darken images for better text contrast */
+}
+
+/* Style for the carousel captions */
+.carousel-caption {
+    bottom: 20%; /* Position captions slightly above the bottom */
+    text-align: center; /* Center text */
+    opacity: 0.9; /* Slight opacity for visibility */
+}
+
+/* Centering text and adjusting font sizes */
+.carousel-caption h1 {
+    font-weight: 700; /* Bold title */
+    font-size: 3rem; /* Larger title size */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Shadow for better visibility */
+}
+
+.carousel-caption p {
+    font-size: 1.25rem; /* Moderate size for subtitle */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button styling */
+.btn {
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition on hover */
+    margin: 0 5px; /* Margin around buttons */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove border */
+}
+
+.btn-outline-light {
+    border: 2px solid rgba(255, 255, 255, 0.7); /* Outline for the button */
+    color: rgba(255, 255, 255, 0.9); /* Button text color */
+}
+
+.btn:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    opacity: 0.9; /* Make button slightly transparent on hover */
+}
+
+/* Adding a smooth transition effect */
+.carousel-item {
+    transition: opacity 0.5s ease-in-out; /* Fade effect */
+}
+
+/* Controls styling */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for controls */
+    border-radius: 50%; /* Rounded controls */
+}
+.navbar {
+    background-color: #007bff;
+    margin-bottom: 50px;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.header {
+    background: url('./image/rectangle-decorating-blank-color-empty.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.header p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header .btn {
+    margin-top: 20px;
+    background-color: #28a745;
+    border: none;
+}
+
+.header .btn:hover {
+    background-color: #218838;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+.skill-set {
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-set i {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #007bff;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+#about {
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    padding: 40px 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.section-title {
+    font-size: 2.5rem; /* Larger font size for the title */
+    font-weight: bold; /* Make the title bold */
+    color: #007bff; /* Primary color for the title */
+}
+
+.lead {
+    font-size: 1.2rem; /* Increase font size for the text */
+    line-height: 1.6; /* Improve line height for readability */
+}
+
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    .carousel-caption h1 {
+        font-size: 1.8rem; /* Reduce title size for mobile */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Reduce paragraph size */
+    }
+
+    .carousel-caption .btn-lg {
+        font-size: 0.9rem; /* Adjust button size */
+        padding: 10px 15px;
+    }
+
+    .carousel-caption {
+        bottom: 15%; /* Adjust the caption position for better mobile view */
+    }
+    
+}

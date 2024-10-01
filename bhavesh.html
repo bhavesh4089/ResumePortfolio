@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavesh Zala Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./bhavesh.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Bhavesh Zala</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+<!-- Header Slider -->
+<div id="headerCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="./image/pexels-elijahsad-5418830.jpg" class="d-block w-100" alt="Slide 1">
+          <div class="carousel-caption text-center">
+              <h1 class="display-4 font-weight-bold">Bhavesh Zala</h1>
+              <p class="lead">Full-Stack Developer | Java | Spring Boot | Python | Cloud Expert</p>
+              <div class="d-flex justify-content-center mt-3">
+                  <a href="./image/Bhavesh.pdf" class="btn btn-primary btn-lg mr-3" download>Download Resume</a>
+                  <a href="#contact" class="btn btn-outline-primary btn-lg">Hire Me</a>
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="./image/pexels-roman-odintsov-4551127.jpg" class="d-block w-100" alt="Slide 2">
+          <div class="carousel-caption text-center">
+              <h1 class="display-4 font-weight-bold">Explore My Projects</h1>
+              <p class="lead">Check out my work and contributions in various fields.</p>
+              <div class="d-flex justify-content-center mt-3">
+                  <a href="#projects" class="btn btn-primary btn-lg">View Projects</a>
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="./image/pexels-karolina-grabowska-4705933.jpg" class="d-block w-100" alt="Slide 3">
+          <div class="carousel-caption text-center">
+              <h1 class="display-4 font-weight-bold">Get In Touch</h1>
+              <p class="lead">Let's collaborate on exciting projects!</p>
+              <div class="d-flex justify-content-center mt-3">
+                  <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!-- About Section -->
+<section id="about" class="container mt-5">
+    <h2 class="section-title text-center mb-4">About Me</h2>
+    <div class="row align-items-center">
+        <div class="col-md-6 mb-4">
+            <p class="lead">
+                I am a full-stack software developer with over 8 years of experience in developing scalable microservices architecture and cloud-based solutions. I specialize in Java, Spring Boot, Python, and various cloud platforms like AWS, GCP, and Azure.
+            </p>
+            <p class="lead">
+                I have led development teams and delivered high-quality software solutions across various industries. My skill set includes backend development, cloud technologies, containerization, and DevOps.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="./image/profile.jpg" alt="Bhavesh Zala" class="img-fluid rounded shadow-lg">
+        </div>
+    </div>
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <h2 class="section-title text-center mb-4">Technical Skills</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fab fa-java fa-3x"></i>
+          </div>
+          <h6>Programming Languages</h6>
+          <p>Java, Python</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-laptop-code fa-3x"></i>
+          </div>
+          <h6>Frameworks & Libraries</h6>
+          <p>Spring Boot, Microservices, Spark, Pandas, PySpark, React.js</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fab fa-aws fa-3x"></i>
+          </div>
+          <h6>Cloud Technologies</h6>
+          <p>AWS (EC2, S3), Azure, GCP, Spring Cloud</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fab fa-docker fa-3x"></i>
+          </div>
+          <h6>Containerization & Orchestration</h6>
+          <p>Docker, Kubernetes</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-database fa-3x"></i>
+          </div>
+          <h6>Databases</h6>
+          <p>MySQL, PostgreSQL, Oracle, MongoDB, Cassandra, NoSQL</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-code fa-3x"></i>
+          </div>
+          <h6>Data Querying</h6>
+          <p>SQL</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-comments fa-3x"></i>
+          </div>
+          <h6>Messaging Queues</h6>
+          <p>Kafka</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-tools fa-3x"></i>
+          </div>
+          <h6>Development Tools</h6>
+          <p>Eclipse, IntelliJ IDEA, NetBeans</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-code-branch fa-3x"></i>
+          </div>
+          <h6>Version Control</h6>
+          <p>Git, Bitbucket</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-sync-alt fa-3x"></i>
+          </div>
+          <h6>Methodologies</h6>
+          <p>Agile, Scrum</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-shield-alt fa-3x"></i>
+          </div>
+          <h6>Testing Frameworks</h6>
+          <p>JUnit, Mockito</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <div class="icon-container mb-3">
+            <i class="fas fa-database fa-3x"></i>
+          </div>
+          <h6>Data Processing</h6>
+          <p>Apache Spark</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <h2 class="section-title text-center mb-4">Projects</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">SFTP to Cloud Storage Transfer</h5>
+              <p class="card-text">Duration: Oct 2023 – Aug 2024<br>
+                Tech Stack: Java, JSch, Apache Mina SSHD, AWS SDK, Google Cloud SDK, SLF4J, Docker<br>
+                Developed a solution to retrieve CSV files from an SFTP server based on criteria and transfer them to a cloud storage bucket.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Implemented SFTP client integration for secure file retrieval.</li>
+                <li>Developed file filtering logic based on user-defined criteria.</li>
+                <li>Designed file transfer mechanisms for downloading and uploading files.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">STOIC HRMS</h5>
+              <p class="card-text">Duration: Oct 2023 – present<br>
+                Tech Stack: Spring Boot, GCP, Kubernetes, Clojure, Cassandra, Kafka, React.js, AWS<br>
+                An HRMS application designed for managing payroll, recruitment, employee self-service, and other HR processes.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Developed backend components using Spring Boot.</li>
+                <li>Integrated with Kafka for messaging and asynchronous processing.</li>
+                <li>Assisted in performance optimization and deployment.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Book Appointment and Manage Customer System</h5>
+              <p class="card-text">Duration: Mar 2022 – Oct 2023<br>
+                Tech Stack: Spring Boot, AWS, Azure, Kafka, GCP, PostgreSQL, Angular, Docker<br>
+                A booking and business management system for service providers featuring calendar booking, POS, inventory management, and more.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Developed backend services using Spring Boot for scheduling, payments, and inventory.</li>
+                <li>Worked with AWS and Azure for cloud-based deployment.</li>
+                <li>Designed technical solutions and collaborated on project timelines and feature implementations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Management System (CRS)</h5>
+              <p class="card-text">Duration: Apr 2021 – Mar 2022<br>
+                Tech Stack: Play Framework, Docker, Bootstrap, AWS, Kafka, MySQL<br>
+                A centralized reservation system for hotels, managing room bookings and generating financial reports.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Led backend development using Java and Play Framework.</li>
+                <li>Integrated Kafka for managing real-time room availability and bookings.</li>
+                <li>Collaborated with QA teams for testing and deployment.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">eKYC System</h5>
+              <p class="card-text">Duration: Jan 2020 – Apr 2021<br>
+                Tech Stack: Spring Boot, AWS Rekognition, Google Vision API<br>
+                An eKYC system for users to upload identity documents with real-time OCR and face recognition.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Designed and developed the backend system using Spring Boot.</li>
+                <li>Integrated with third-party APIs for OCR and face recognition.</li>
+                <li>Managed asynchronous processing and cloud deployment.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">InMarket</h5>
+              <p class="card-text">Duration: Mar 2019 – Jan 2020<br>
+                Tech Stack: Python, PySpark, Pandas, Jupyter Notebook, AWS S3<br>
+                ETL project that processes large-scale data from CSV files and stores processed data in AWS S3.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Developed data ingestion pipelines using PySpark and Python.</li>
+                <li>Cleaned and transformed large datasets for consistency and accuracy.</li>
+                <li>Monitored and optimized the data pipeline, ensuring reliability.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Fraud Detection</h5>
+              <p class="card-text">Duration: Jan 2018 – Mar 2019<br>
+                Tech Stack: Python, Flask, MySQL<br>
+                A fraud detection system that identifies abnormal behaviors in transactions and flags fraudulent activities.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Built and maintained Flask API for real-time fraud detection.</li>
+                <li>Analyzed fraud reports and collaborated on model improvements.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="card mb-4 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Nolte Küchen</h5>
+              <p class="card-text">Duration: Jan 2017 – Jan 2018<br>
+                Tech Stack: Spring Boot, MongoDB, AWS, Kafka, Kubernetes, Log4j2<br>
+                A backend project for a kitchen design brand that offers innovative and customizable kitchen designs.
+              </p>
+              <h6>Roles and Responsibilities:</h6>
+              <ul>
+                <li>Developed and maintained microservices.</li>
+                <li>Designed REST APIs and implemented security measures.</li>
+                <li>Integrated Kafka for event-driven architecture.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <h2 class="section-title text-center mb-4">Contact Me</h2>
+    <div class="container">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="py-4 text-center" style="background-color: #343a40; color: white;">
+    <div class="container">
+      <p>&copy; 2024 Bhavesh Zala. All Rights Reserved.</p>
+      <div>
+        <a href="https://linkedin.com/in/bhaveshzala" class="social-icon" target="_blank" style="margin: 0 10px;">
+          <i class="fab fa-linkedin" style="font-size: 24px; color: white;"></i>
+        </a>
+        <a href="https://github.com/bhaveshzala" class="social-icon" target="_blank" style="margin: 0 10px;">
+          <i class="fab fa-github" style="font-size: 24px; color: white;"></i>
+        </a>
+        <a href="https://twitter.com/bhaveshzala" class="social-icon" target="_blank" style="margin: 0 10px;">
+          <i class="fab fa-twitter" style="font-size: 24px; color: white;"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
